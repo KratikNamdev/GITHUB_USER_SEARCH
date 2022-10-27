@@ -1,0 +1,144 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./imgs/b4.jpg);
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+}
+.usernamediv{
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    /* margin-top: 100px; */
+    margin-left: 90px;
+    border-radius: 50%;
+    animation: flicker 1.5s infinite alternate;
+    -webkit-box-shadow:0px 0px 146px 0px rgba(45,255,196,0.9);
+-moz-box-shadow: 0px 0px 146px 0px rgba(45,255,196,0.9);
+box-shadow: 0px 0px 146px 0px rgba(45,255,196,0.9);
+    
+    
+}
+form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 400px;
+    margin-left: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    
+   
+    box-shadow: 0px 0px 146px 0px rgba(45,255,196,0.9);
+   
+}
+.profilepic{
+    height: 300px;
+    border-radius: 50%;
+}
+button{
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+   
+    background: none;
+    border: none;
+    
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+   
+    
+}
+.left{
+    width: 30%;
+    height: 100%;
+    padding-top: 100px;
+  
+}
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 200px;
+    /* align-items: center; */
+    color: white;
+  
+}
+h3{
+    font-weight: 800;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+   
+    
+}
+.jk{
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
